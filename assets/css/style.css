@@ -10,6 +10,8 @@ body {
 
 p {
     font-size: x-large;
+    width: 70%;
+    padding-left: 375px;
 }
 
 h1, h2 {
