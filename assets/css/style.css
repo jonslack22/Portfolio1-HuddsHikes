@@ -91,8 +91,11 @@ li {
     border-style: groove;
     background-color: blanchedalmond;
     text-align: center;
-    padding-bottom: 40px;
-    
+    padding-bottom: 40px;   
+}
+
+.why-us {
+    padding-left: 250px;
 }
 
 .accessibility {
