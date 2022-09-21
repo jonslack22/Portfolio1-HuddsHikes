@@ -24,6 +24,16 @@ h1, h2 {
     color: #141414
 }
 
+h3 {
+    font-family: Istok, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 200%;
+    text-align: center;
+    padding: 20px 0 20px;
+    color: #141414
+}
+
 #logo {
     float: left ;
     /* padding-left: 600px; */
@@ -78,6 +88,8 @@ h1, h2 {
 .sunset {
     height: 420px;
 }
+
+/* Why ramble with us? */
 
 li {
     list-style-type: square;
@@ -149,32 +161,47 @@ li {
 
 /* Upcoming walks */
 
-.card {
-    text-transform: uppercase;
-    text-align: center;
+.cards {
+    margin: 0 auto;
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: auto;
+    gap: 80px;
+    font-family: Istok, sans-serif;
+    padding-top: 30px;
 }
 
-.card-title {
-    font-size: x-large;
+.cards * {
+    box-sizing: border-box;
 }
 
-.card-img-top {
-    width: 18rem;
+.card__image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border: none;
+}    
+
+.card__content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa;
+    border: none;
 }
 
-.card-body {
-
+.card__content > ul:first-of-type {
+    margin-top: 0;
 }
 
-.list-group {
-
-}
-
-.list-group-flush {
-
+.card__content > ul:last-of-type {
+    margin-bottom: 0;
 }
 
 .list-group-item {
-    list-style-type: none;
-    font-size: large;
+    list-style: none;
+    text-align: center;
+    padding-right: 45px;
 }
