@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="A new, independent rambling group based in Huddersfield, West Yorkshire">
+    <meta name="keywords" content="hiking, rambling, huddersfield, yorkshire, kirklees">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Join Us - Hudds Hikers</title>
 </head>
 <body>
-    <nav>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Hudds Hikers</h1>
+        </a>
+      <nav>
         <ul id="menu">
             <li>
                 <a href="joinus.html" class="active">Join Us</a>
@@ -19,6 +27,49 @@
                 <a href="index.html">Home</a>
             </li>
         </ul>
-    </nav>                       
+      </nav>
+    </header>
+    <section class="form-section">
+        <form action="https://formdump.codeinstitute.net/" method="POST" class="joinus-form">
+    
+            <h2>Join Hudds Hikers now - membership is free!</h2>
+            
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="first_name" class="text-input" required>
+            
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" class="text-input" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
+
+            <input type="checkbox" name="mailing-list" id="on_correspondence_list" value="yes" checked>
+            <label for="on_correspondence_list">Tick here if you want to receive regular correspondence about newly added walks, updates to upcoming events and more</label>
+
+            <input type="submit" value="Sign Up" class="join-button">
+    </form>
+    </section>
+</body>
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" 
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener" 
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener" 
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://whatsapp.com" target="_blank" rel="noopener" 
+                    aria-label="Visit our Whatsapp page (opens in a new tab)"><i class="fa-brands fa-whatsapp"></i></a>
+            </li>   
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/6f2448d8aa.js" crossorigin="anonymous"></script>                           
 </body>
 </html>
