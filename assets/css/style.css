@@ -142,23 +142,6 @@ li {
     font-size: 400%;
 }
 
-/* footer */
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 250%;
-    margin: 2%;
-    padding: 5%;
-    color: #2d2d2d;
-}
-
 /* Upcoming walks */
 
 .cards {
@@ -204,4 +187,21 @@ li {
     list-style: none;
     text-align: center;
     padding-right: 45px;
+}
+
+/* footer */
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 250%;
+    margin: 2%;
+    padding: 5%;
+    color: #2d2d2d;
 }
