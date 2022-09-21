@@ -150,11 +150,16 @@ li {
 /* Upcoming walks */
 
 .card {
-    width: 18rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-title {
+    font-size: x-large;
 }
 
 .card-img-top {
-
+    width: 18rem;
 }
 
 .card-body {
@@ -170,5 +175,6 @@ li {
 }
 
 .list-group-item {
-
+    list-style-type: none;
+    font-size: large;
 }
