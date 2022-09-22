@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Luckiest+Guy&family=Galindo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Merriweather&display=swap&family=Galindo&display=swap");
 
 body {
     font-family: Istok, sans-serif;
@@ -15,7 +15,7 @@ p {
 }
 
 h1, h2 {
-    font-family: Luckiest Guy, sans-serif;
+    font-family: Merriweather, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 400%;
@@ -119,9 +119,9 @@ li {
     padding-bottom: 40px;   
 }
 
-.why-us {
+/* .why-us {
     padding-left: 250px;
-}
+} */
 
 .accessibility {
     border-width: 4px;
@@ -157,7 +157,7 @@ li {
 
 /* Upcoming walks and events page*/
 
-.cards, .events-cards {
+.cards {
     margin: 0 auto;
     max-width: 1500px;
     display: grid;
@@ -168,11 +168,27 @@ li {
     padding-top: 30px;
 }
 
+.events-cards {
+    margin: 0 auto;
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: auto;
+    grid-row-gap: 80px;
+    font-family: Istok, sans-serif;
+    padding-top: 30px;
+}
+
 .cards * {
     box-sizing: border-box;
 }
 
+.events-cards * {
+    box-sizing: border-box;
+}
+
 .card__image {
+    margin: 0 auto;
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -190,8 +206,9 @@ li {
 }
 
 .events-img {
+    margin: 0 auto;
     width: 100%;
-    height: 750px;
+    max-height: 900px;
     object-fit: cover;
     display: block;
     border-right: 2px solid green;
@@ -290,7 +307,7 @@ li {
 }
 
 .social-networks i {
-    font-size: 250%;
+    font-size: 150%;
     margin: 2%;
     padding: 5%;
     color: #2d2d2d;
