@@ -172,9 +172,9 @@ li {
     margin: 0 auto;
     max-width: 1500px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: auto;
     grid-auto-rows: auto;
-    grid-row-gap: 80px;
+    gap: 80px;
     font-family: Istok, sans-serif;
     padding-top: 30px;
 }
