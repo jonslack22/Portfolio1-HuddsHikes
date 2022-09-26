@@ -157,6 +157,10 @@ li {
 
 /* Upcoming walks and events page*/
 
+.card {
+    position: relative;
+}
+
 .cards {
     margin: 0 auto;
     max-width: 1500px;
@@ -200,13 +204,29 @@ li {
     transition: 0.3s;
 }
 
+#cover-symbol {
+    font-size: 130%;
+    color: #fff;
+    
+    width: 100px;
+    height: 100px;
+
+    padding-top: 40px;
+
+    background-color: rgba(223, 52, 30, 0.7);
+
+    top: 30px;
+
+    position: absolute;
+}
+
 .card__image:hover {
     opacity: 0.5;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .events-img {
-    margin: 0 auto;
+    margin-top: 80px;
     width: 100%;
     max-height: 900px;
     object-fit: cover;
