@@ -329,3 +329,43 @@ li {
     padding: 5%;
     color: #2d2d2d;
 }
+
+/* Media queries */
+
+/* For larger screens from 1440px wide and down */
+
+@media screen and (max-width: 1440px) {
+    
+    
+    #events-logo {
+        display: none;
+    }
+
+
+    #with-us {
+        margin: 0 auto;
+    } 
+   
+   
+    #photos {
+    column-count: 4;
+    }
+}
+
+@media screen and (max-width: 1200px) { 
+    
+}
+
+}
+    
+@media screen and (max-width: 800px) {
+
+.grid-container-home, .grid-container-join-us {
+     clear: left;
+     float: left;
+     margin-left: 30px;
+     margin-bottom: 20px;
+     line-height: 25px;
+     grid-template-rows: 1;
+} 
+}
