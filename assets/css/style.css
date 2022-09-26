@@ -355,17 +355,10 @@ li {
 @media screen and (max-width: 1200px) { 
     
 }
-
-}
     
 @media screen and (max-width: 800px) {
 
-.grid-container-home, .grid-container-join-us {
-     clear: left;
-     float: left;
-     margin-left: 30px;
-     margin-bottom: 20px;
-     line-height: 25px;
-     grid-template-rows: 1;
+#menu {
+     
 } 
 }
