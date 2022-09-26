@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Merriweather&display=swap&family=Galindo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&family=Anton&display=swap&family=Galindo&display=swap");
 
 body {
     font-family: Istok, sans-serif;
@@ -11,11 +11,12 @@ body {
 p {
     font-size: x-large;
     width: 70%;
-    padding-left: 375px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 h1, h2 {
-    font-family: Merriweather, sans-serif;
+    font-family: Anton, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 400%;
@@ -118,10 +119,6 @@ li {
     text-align: center;
     padding-bottom: 40px;   
 }
-
-/* .why-us {
-    padding-left: 250px;
-} */
 
 .accessibility {
     border-width: 4px;
