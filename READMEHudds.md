@@ -35,6 +35,23 @@ This project consists of three pages, each accessible by the relevant links on t
 
 - A feature that goes beyond the scope of this project would be a members-only website section, where the group's founders could be contacted more directly. This could contain a forum as well, allowing group members to discuss upcoming walks and ask each other questions.
 
+## Technologies and Sites Used
+
+- HTML5
+    * The primary coding language used to create the site's content and draw up the form.
+- CSS3
+    * The language used to style the HTML5 elements and colour schemes of the site's pages.
+- [Miro](https://miro.com)
+    * The wireframe building website I used for the project. This helped me visualise the layout of each page (and the images contained within) across a desktop, mobile and tablet view (details such as colours and font schemes were finalised later).
+- [FontAwesome](https://fontawesome.com)
+    * Eight free icons from FontAwesome were used for this project; four represent clickable links for Facebook, Instagram, Youtube and WhatsApp.
+- [Adobe Stock](stock.adobe.com)
+    * The eight images comprising the top of the home page were all sourced from here.
+- [iStock by Getty Images](istockphoto.com)
+    * The image used for the background of the signup form was sourced from here.    
+- [Google Fonts](https://fonts.google.com)
+    * The three different font-families used for the project, Anton, Istok and Galindo, were sourced from here.                    
+
 ## Testing
 
 ### Validator Testing
