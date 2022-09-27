@@ -84,14 +84,14 @@ h3 {
 
 /* homepage gallery */
 
-#photos {
+.photos {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 }
 
-#photos > img {
+.photos > img {
     width: 100%;
 }
 
@@ -202,6 +202,22 @@ li {
 }
 
 #cover-symbol {
+    font-size: 130%;
+    color: #fff;
+    
+    width: 100px;
+    height: 100px;
+
+    padding-top: 40px;
+
+    background-color: rgba(223, 52, 30, 0.7);
+
+    top: 30px;
+
+    position: absolute;
+}
+
+#cover-symbol-two {
     font-size: 130%;
     color: #fff;
     
