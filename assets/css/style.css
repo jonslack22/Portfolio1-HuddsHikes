@@ -15,11 +15,22 @@ p {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1 {
     font-family: Anton, sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 400%;
+    text-align: center;
+    padding: none;
+    margin: 0 auto;
+    color: #141414
+}
+
+h2 {
+    font-family: Anton, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 280%;
     text-align: center;
     padding: none;
     margin: 0 auto;
@@ -32,16 +43,8 @@ h3 {
     text-transform: uppercase;
     font-size: 200%;
     text-align: center;
-    /* padding: 20px 0 20px; */
     color: #141414
 }
-
-/* .grid-container-home, .grid-container-join-us {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 0px;
-    margin: auto;
-} */
 
 .grid-container-events {
     display: grid;
@@ -96,16 +99,6 @@ h3 {
 .photos > img {
     width: 100%;
 }
-
-/* .view, .winter {
-    height: 487px;
-}
-
-.sunset {
-    height: 420px;
-} */
-
-/* Why ramble with us? */
 
 li {
     list-style-type: square;
@@ -207,6 +200,7 @@ iframe {
     height: 300px;
     object-fit: cover;
     display: block;
+    border: none;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
@@ -356,11 +350,29 @@ iframe {
 
 /* Media queries */
 
-/* For larger screens from 1440px wide and down */
+/* For larger screens from 1200px wide and down */
 
-@media screen and (max-width: 1440px) {
-    
-    
+@media screen and (max-width: 1200px) { 
+    .form-section {
+        width: 100%;
+        height: 1000px;
+        background-image: url("https://media.istockphoto.com/photos/international-day-of-persons-with-disabilitiesn3-december-picture-id1250348677?k=20&m=1250348677&s=612x612&w=0&h=YF4Kzxfpi9xd5AxtAhWBW7zSbXkrUE-Il5LfHoqSf2s=");
+        background: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .join-us-form {
+        margin: 150px 10% 0 0;
+        color: rgb(0, 0, 0);
+        background-color: rgba(101, 128, 5, 0.4);
+        width: 600px;
+        max-height: 800px;
+        position: absolute;
+        left: 10%;
+        padding: 30px;
+    }
+
     #events-logo {
         display: none;
     }
@@ -371,39 +383,75 @@ iframe {
     } 
    
    
-    #photos {
-    column-count: 0;
+    .photos {
+        column-count: 2;
     }
 }
 
-@media screen and (max-width: 1200px) { 
-    .form-section {
-        width: 100%;
-        height: 1000px;
-        background-image: url("https://media.istockphoto.com/photos/international-day-of-persons-with-disabilitiesn3-december-picture-id1250348677?k=20&m=1250348677&s=612x612&w=0&h=YF4Kzxfpi9xd5AxtAhWBW7zSbXkrUE-Il5LfHoqSf2s=");
-        /* background: none; */
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
+/* For medium sized screens 950px and down */
 
-    .join-us-form {
-        margin: 150px 10% 0 0;
-        color: rgb(0, 0, 0);
-        background-color: rgba(218, 228, 189, 0.4);
-        width: 600px;
-        max-height: 800px;
-        position: absolute;
-        left: 10%;
-        padding: 30px;
-    }
-}
-    
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
 
     #menu {
         clear: left;
         float: left;
         margin: 0 auto;
         line-height: 25px;
+    }
+
+    #group-ethos h2 {
+        font-size: 200%;
+    }
+
+    .card__image {
+        margin: 0 auto;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+    .cards {
+        margin: 0 auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        grid-auto-rows: auto;
+        gap: 40px;
+        font-family: Istok, sans-serif;
+        padding-top: 30px;
+    }    
+
+    iframe {
+        margin: 0 auto;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+    
+    .card {
+        margin: 0 auto;
+    }
+
+    .card__content {
+        height: 25vh;
+        line-height: 1.0;
+        font-size: 0.4em;
+        padding: 5px;
+        background: blanchedalmond;
+    }
+}
+
+/* For small screens of 600px and down */
+
+@media screen and (max-width: 800px) {
+    .photos {
+        column-count: 1;
     }
 }
