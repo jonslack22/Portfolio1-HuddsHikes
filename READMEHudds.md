@@ -50,7 +50,12 @@ This project consists of three pages, each accessible by the relevant links on t
 - [iStock by Getty Images](istockphoto.com)
     * The image used for the background of the signup form was sourced from here.    
 - [Google Fonts](https://fonts.google.com)
-    * The three different font-families used for the project, Anton, Istok and Galindo, were sourced from here.                    
+    * The three different font-families used for the project, Anton, Istok and Galindo, were sourced from here.
+- [W3C Markup Validation Service](https://validator.w3.org/)
+    * Both my HTML and CSS code received validation several times over the last few days before project submission, and several oversights and unused classes in my HTML were brought to my attention.
+- [W3C Schools](https://www.w3schools.com/)
+    * I consulted this website several times with regards to image formatting and the particulars of using a grid template when creating the headers for my events page.
+-                                  
 
 ## Testing
 
@@ -83,6 +88,7 @@ I manually tested the project via the following methods:
 ### Content
 
 The content of the site is closely analagous to real world walks that I, as well as friends or family, have either been on myself, or have been near to.
+
 The names referred to as Hudds Hikes' founders, my own excluded, are the names of people that have a unique relationship with hiking, either by their connection to me or their relationship to someone I have hiked with previously.
 
 ### Media
@@ -92,10 +98,15 @@ All the images at the top of the site's homepage were sourced from (stock.adobe.
 For the "Upcoming Walks" section on the site's home page, four of the six images were sourced from Wikipedia, one from stock.adobe.com and one from commons.wikimedia.org via the following links:
 
 [Crowden Campsite and Black Hill Circular](https://en.wikipedia.org/wiki/Black_Hill_(Peak_District)#/media/File:Black_Hill_(Peak_District).jpg)
+
 [Torside Reservoir Circular](https://en.wikipedia.org/wiki/Torside_Reservoir#/media/File:Torside8486.JPG)
+
 [Slaithwaite to Marsden Canal Circular](https://en.wikipedia.org/wiki/Torside_Reservoir#/media/File:Torside8486.JPG)
+
 [Ramsden Reservoir & Hade Edge Circular](https://stock.adobe.com/images/ramsden-reservoir-near-holmfirth-during-the-summer/310465365)
+
 [Digley Reservoir Circular Walk](https://commons.wikimedia.org/wiki/File:Digley_Reservoir_-_geograph.org.uk_-_503817.jpg)
+
 [Crowden Circular via Crowden Quarry](https://en.wikipedia.org/wiki/Crowden,_Derbyshire#/media/File:Crowden_-_geograph.org.uk_-_377592.jpg)
 
 The image used for the "Snowdonia Ramble Trip" is my own personal image taken via phone while descending the Pyg Track route.
