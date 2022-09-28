@@ -158,7 +158,7 @@ li {
 
 .card {
     position: relative;
-    height: 50vh;
+    height: 75vh;
 }
 
 .cards {
@@ -197,15 +197,26 @@ li {
     height: 300px;
     object-fit: cover;
     display: block;
-    border-right: 2px solid green;
-    border-left: 2px solid green;
-    border-top: 2px solid green;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+iframe {
+    margin: 0 auto;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
 
 .card__content {
-    height: 30vh;
+    height: 25vh;
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: blanchedalmond;
 }
 
 #cover-symbol {
@@ -256,16 +267,6 @@ li {
     border-top: 2px solid green;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-}
-
-.card__content {
-    line-height: 1.5;
-    font-size: 0.9em;
-    padding: 15px;
-    background: blanchedalmond;
-    border-right: 2px solid green;
-    border-left: 2px solid green;
-    border-bottom: 2px solid green;
 }
 
 .card__content > h2, h3 {
