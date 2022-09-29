@@ -152,6 +152,7 @@ li {
 .card {
     position: relative;
     height: 75vh;
+    width: 90%;
 }
 
 .cards {
@@ -306,7 +307,7 @@ iframe {
     margin: 150px 10% 0 0;
     color: rgb(0, 0, 0);
     background-color: rgba(218, 228, 189, 0.4);
-    width: 600px;
+    max-width: 600px;
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -348,15 +349,18 @@ iframe {
 
 .social-networks {
     text-align: center;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 .social-networks > li {
     display: inline;
+    margin: 0 auto;
 }
 
 .social-networks i {
     font-size: 150%;
-    margin: 2%;
     padding: 5%;
     color: #2d2d2d;
 }
@@ -368,6 +372,7 @@ iframe {
 @media screen and (max-width: 1920px) {
     .events-content {
         height: 70vh;
+}
 }
 
 
@@ -394,14 +399,9 @@ iframe {
     }
 
     .join-us-form {
-        margin: 150px 10% 0 0;
-        color: rgb(0, 0, 0);
-        background-color: rgba(101, 128, 5, 0.4);
-        width: 60%;
-        max-height: 800px;
-        position: absolute;
-        left: 10%;
-        padding: 30px;
+        margin: 100px 0 0 0;
+        width: 90%; 
+        max-height: 600px;
     }
 
     #events-logo {
@@ -470,7 +470,7 @@ iframe {
     }
 
     .card__content {
-        height: 25vh;
+        height: 15vh;
         line-height: 1.0;
         font-size: 0.4em;
         padding: 5px;
@@ -502,6 +502,7 @@ iframe {
     .join-us-form {
         margin-top: 30px;
     }
+}
 
     
 /* For very small screens of 600px and down */
@@ -540,8 +541,7 @@ iframe {
     }
 
     .join-us-form {
-        width: 300px;
-        left: 0%;
+        width: 70%;
     }
 
     .social-networks i {
