@@ -206,23 +206,7 @@ iframe {
     background: blanchedalmond;
 }
 
-#cover-symbol {
-    font-size: 130%;
-    color: #fff;
-    
-    width: 100px;
-    height: 100px;
-
-    padding-top: 40px;
-
-    background-color: rgba(223, 52, 30, 0.7);
-
-    top: 30px;
-
-    position: absolute;
-}
-
-#cover-symbol-two {
+#cover-symbol, #cover-symbol-two, #cover-symbol-three, #cover-symbol-four  {
     font-size: 130%;
     color: #fff;
     

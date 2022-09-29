@@ -14,9 +14,35 @@ This is the first of five projects that comprise the Full Stack Software Develop
 
  - To ensure it is easy for users to sign up for a free membership to the group and include themselves in a mailing list that details upcoming walks and trips that are of interest.
 
- - To define the Hudds Hikers group as credible and dedicated to the philosophy
+ - To define Hudds Hikes as credible in their dedication to providing inclusive hiking experiences while acknowledging more work needs to be done in this area.
 
- - To make a website that is responsive and static across computers, tablets and phones
+ - To make a website that is responsive and static across computers, tablets and phones.
+
+### User Stories
+
+- I am a wheelchair user who has an interest in hiking but is put off by accessibility issues such as stiles, locked gates en route, poor path maintenance and not knowing, if any, what parts of the countryside have solutions in place for said issues.
+
+- I am a person with a physical disability that is not bound by a wheelchair or other device, and I am looking for walks in the Huddersfield area.
+
+- I am somebody looking for the existence of a disability-friendly hiking group as information on inclusivity in hiking is not at the forefront of rambling group pages.
+
+- I am a user of a tablet and a phone. I want to experience all the website's features in an aesthetically pleasing manner.
+
+- I am the one of the founders of Hudds Hikers. I want a website that encourages people to simply turn up to a walk and be part of a group that is promoring and developing wider access to the countryside.
+
+### Design Process
+
+1. I began designing the site by outlining what features and information I wanted my website to have, bearing in mind the user stories above. This led me to decide on creating three seperate pages: "Home" "Events" and "Join Us".
+
+2. I wanted to immediately quell the notion that hiking is only for the able-bodied by displaying inspiring images on the site's homepage. The images include somebody being carried in a special mobility device, a wheelchair user sat with her friend atop a high peak, and a person in a mobility vehicle being lowered/lifted while looking at a mountainous backdrop, amongst others. This would also serve to set the tone for what Hudds Hikers philosophise as a rambling group, and to provide immediate engagement.
+
+3. After reading some basic information about the group and the nature of the walks on offer, a positive first impression garnered of Hudds Hikes would be reinforced by listing why the group thinks it's worth joining. This led to the "Why Ramble With Us?" section on the homepage.
+
+4. It was at this point that I commenced a wireframe design on [Miro](https://miro.com/app/board/uXjVPVVcxhY=/?share_link_id=156333714561). The basic layout of the site holds true to the wireframe layout, though it is not to scale. The greatest deviation from the wireframe came from the layout of the images on the homepage. Having information about walks horizontally aligned is visually impractical on smaller screen sizes, and the headline images at the top of the page 
+
+5. For the group 'to put it's money where it's mouth is', concrete information about upcoming walks, including wheelchair and mobility-vehicle friendly walks, is included immediately afterwards in the 'Our Upcoming Walks' section, as well as on the 'Events' page, as means of the group's intention to carry their intentions further afield.
+
+
 
 ## Project Wireframe - Miro
 
@@ -55,6 +81,8 @@ This project consists of three pages, each accessible by the relevant links on t
 - I considered the use of drop-down menus to present information about upcoming walks, much in the same way as the [Huddersfield Ramblers](https://www.ramblers.org.uk/go-walking/group-finder/areas/west-riding/groups/huddersfield/our-events--activities.aspx) group does. JavaScript was used in the creation of these menus, and was beyond the scope of limitations for this project.
 
 - A feature that goes beyond the scope of this project would be a members-only website section, where the group's founders could be contacted more directly. This could contain a forum as well, allowing group members to discuss upcoming walks and ask each other questions.
+
+- A news page that informs readers of developments in countryside accessibility, whether it be the group purchasing mobile carrier devices (an alternative to wheelchairs) or local pathways becoming more accessible, e.g. through maintenance funds.
 
 ## Technologies and Sites Used
 
