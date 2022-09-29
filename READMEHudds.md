@@ -6,8 +6,6 @@
 
 This is the first of five projects that comprise the Full Stack Software Development course ran by *Code Institute*. This project required the use of HTML and CSS3 to build a responsive and static website with three pages or more.
 
-
-
 ## Project Wireframe - Miro
 
 [The entirety of the wireframe can be seen at this link](https://miro.com/app/board/uXjVPVVcxhY=/?share_link_id=156333714561)
