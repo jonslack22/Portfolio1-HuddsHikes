@@ -46,13 +46,6 @@ h3 {
     color: #141414
 }
 
-.grid-container-events {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 0px;
-    margin: auto;
-}
-
 #logo {
     float: left;
     font-size: 400%;
@@ -480,11 +473,15 @@ iframe {
 /* For small screens of 800px and down */
 
 @media screen and (max-width: 800px) {
+    #logo {
+        margin: auto;
+        width: 100%;
+    }
+
     #menu {
-        clear: left;
-        float: left;
-        margin: 0 auto;
-        line-height: 25px;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
     }
     
     .photos {
