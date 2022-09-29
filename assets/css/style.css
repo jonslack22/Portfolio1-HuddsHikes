@@ -261,11 +261,12 @@ iframe {
 }
 
 .events-content {
-    height: 52vh;
     width: 99%;
     line-height: 1.5;
     font-size: 0.9em;
     padding: 15px;
+    object-fit: cover;
+    display: block;
     background: blanchedalmond;
     border-right: 2px solid green;
     border-left: 2px solid green;
@@ -359,15 +360,6 @@ iframe {
 }
 
 /* Media queries */
-
-/* For very large screen sizes of 1920px wide and down */
-
-@media screen and (max-width: 1920px) {
-    .events-content {
-        height: 70vh;
-}
-}
-
 
 /* For larger screens from 1200px wide and down */
 

@@ -6,6 +6,18 @@
 
 This is the first of five projects that comprise the Full Stack Software Development course ran by *Code Institute*. This project required the use of HTML and CSS3 to build a responsive and static website with three pages or more.
 
+## Defining the UX
+
+### Primary Goals
+
+ - To make information about an inclusive walking group and accessible walks in the Huddersfield district, and further afield, more readily available, appealing to those who are put off by inaccessibility issues in countryside hiking and encouraging participation.
+
+ - To ensure it is easy for users to sign up for a free membership to the group and include themselves in a mailing list that details upcoming walks and trips that are of interest.
+
+ - To define the Hudds Hikers group as credible and dedicated to the philosophy
+
+ - To make a website that is responsive and static across computers, tablets and phones
+
 ## Project Wireframe - Miro
 
 [The entirety of the wireframe can be seen at this link](https://miro.com/app/board/uXjVPVVcxhY=/?share_link_id=156333714561)
