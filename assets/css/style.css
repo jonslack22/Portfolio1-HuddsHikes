@@ -389,18 +389,15 @@ iframe {
     
     .form-section {
         width: 100%;
-        height: 1000px;
-        background-image: url("https://media.istockphoto.com/photos/international-day-of-persons-with-disabilitiesn3-december-picture-id1250348677?k=20&m=1250348677&s=612x612&w=0&h=YF4Kzxfpi9xd5AxtAhWBW7zSbXkrUE-Il5LfHoqSf2s=");
+        height: 700px;
         background: none;
-        background-repeat: no-repeat;
-        background-size: contain;
     }
 
     .join-us-form {
         margin: 150px 10% 0 0;
         color: rgb(0, 0, 0);
         background-color: rgba(101, 128, 5, 0.4);
-        width: 600px;
+        width: 60%;
         max-height: 800px;
         position: absolute;
         left: 10%;
@@ -431,13 +428,6 @@ iframe {
         font-size: 0.6em;
         padding: 5px;
     }     
-    
-    #menu {
-        clear: left;
-        float: left;
-        margin: 0 auto;
-        line-height: 25px;
-    }
 
     #group-ethos h2 {
         font-size: 200%;
@@ -491,6 +481,13 @@ iframe {
 /* For small screens of 800px and down */
 
 @media screen and (max-width: 800px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin: 0 auto;
+        line-height: 25px;
+    }
+    
     .photos {
         column-count: 1;
     }
@@ -502,12 +499,52 @@ iframe {
         padding: 5px;
     }
 
+    .join-us-form {
+        margin-top: 30px;
+    }
+
+    
 /* For very small screens of 600px and down */
 
 @media screen and (max-width: 600px) {
+    #logo {
+        font-size: 300%;
+    }
+
+    #menu {
+        letter-spacing: 1px;
+    }
+
+    h2 {
+        font-size: 250%;
+    }
+    
+    #group-ethos {
+        font-size: 85%;
+    }
+
+    p, li {
+        font-size: large;
+        margin: 0 auto;
+        line-height: 1.3;
+    }
+
+    #about-us li {
+        margin-right: 30px;
+    }
+    
     .events-content {
         height: 80vh;
         line-height: 1.1;
         font-size: 0.4rem;
+    }
+
+    .join-us-form {
+        width: 300px;
+        left: 0%;
+    }
+
+    .social-networks i {
+        font-size: 100%;
     }
 }
