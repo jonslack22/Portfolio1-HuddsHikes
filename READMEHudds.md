@@ -2,6 +2,18 @@
 
 ## Code Institute - Milestone Project 1
 
+*Hudds Hikers* is a fictional group dedicated to providing a disability-friendly hiking (or rambling, as it is sometimes referred to) experience. The 'Hudds' is shorthand for Huddersfield, a large town based in the UK, West Yorkshire. The idea for this project was inspired by a hiking trip to Snowdonia, Wales, with friends in July 2022, and through my work in a care home for individuals undergoing physical rehabilitation. I noticed a lack of dedicated hiking groups online for those less physically able. Though individual groups that form the backbone of wesbites such as ramblers.org.uk make reference to inclusivity, this information was hard to find via regular site navigation. The idea of building a local rambling website that puts inclusivity at the forefront of its philosophy, highlighting walks and potential trips that are friendly to wheelchair and mobility-device users, amongst others, held appeal to me, as countryside accessibility needs to be improved upon; some routes simply need extra path maintenance or a small side-route around a stile to remove rambling barriers for many!
+
+This is the first of five projects that comprise the Full Stack Software Development course ran by *Code Institute*. This project required the use of HTML and CSS3 to build a responsive and static website with three pages or more.
+
+
+
+## Project Wireframe - Miro
+
+[The entirety of the wireframe can be seen at this link](https://miro.com/app/board/uXjVPVVcxhY=/?share_link_id=156333714561)
+
+Please note that the wireframe was not created to scale, and doesn't include any code stylings or images.
+
 ## Features
 
 ### Basic Features
@@ -18,16 +30,15 @@ This project consists of three pages, each accessible by the relevant links on t
 - A gallery of eight images near the page top, intended to promote the belief that physical disability is not a barrier to participating in hiking activities.
 - An introduction to the Hudds Hikers group, promoting the group's key philosophy and the structure of the walks on offer.
 - Four major reasons to hike with the group made easily visible and supported by adjacent FontAwesome icons.
-- Six upcoming walks, two of which are marked as wheelchair and mobility device friendly, to communicate to a site visitor that Hudds Hikes are inclusive where physically possible. A note of participation encouragement is included, along with a     link to sign up for a free membership.
+- Details of six upcoming walks, each with an embedded map, two of which are marked as wheelchair and mobility device friendly, intended to communicate to a site visitor that Hudds Hikes are inclusive where physically possible. A note of participation encouragement is included, along with a link to sign up for a free membership.
 
 ### Events
 
-- Details of two extended walking trips are included on this page to communicate the scope of the activities of the group. Hiking groups that have been or are local to me have ran trips of a similiar nature before, and I sought to repliacte that with this page.
+- Details of two extended walking trips are included on this page to communicate the scope of the activities of the group. Large images are included as part of the trip outline. Hiking groups that have been or are local to me have ran trips of a similiar nature before, and I sought to repliacte that with this page.
 
 ### Join Us
 
-- Contains a form that users must fill in to become a group member. All fields must be filled in and the final checkbox must be left selected or unselected.
--
+- Contains a form that users must fill in to become a group member. All fields must be filled in and the final checkbox must be left selected or unselected. At larger screen sizes, a silhouette of an individual in a wheelchair can be seen.
 
 ### Features Not Implemented/For Future Consideration
 
@@ -52,7 +63,7 @@ This project consists of three pages, each accessible by the relevant links on t
 - [Google Fonts](https://fonts.google.com)
     * The three different font-families used for the project, Anton, Istok and Galindo, were sourced from here.
 - [W3C Markup Validation Service](https://validator.w3.org/)
-    * Both my HTML and CSS code received validation several times over the last few days before project submission, and several oversights and unused classes in my HTML were brought to my attention.
+    * Both my HTML and CSS code received validation several times over the last few days before project submission. All errors and warnings were resolved.
 - [W3C Schools](https://www.w3schools.com/)
     * I consulted this website several times with regards to image formatting and the particulars of using a grid template when creating the headers for my events page.
 - [stackoverflow](https://stackoverflow.com/)
@@ -83,8 +94,19 @@ The website was tested on the following broswers to ensure design, responsivenes
 
 I manually tested the project via the following methods:
 
-- Using Firefox Developer Tools to view ecah of the project pages at different screen sizes
-- Asking friends to use the website on different devices and browsers
+- Using Firefox Developer Tools and Chrome Developer Tools to view ecah of the project pages at different screen sizes;
+- Asking a friend to help me test and brainstorm CSS styling methods during a troubleshooting evening; 
+- Asking for mentor support during call sessions when I indicated I was struggling with some concepts.
+
+## Deployment
+
+## Deploying the site on GitHub
+
+1. I clicked on the 'Settings' icon of my project repository on GitHub.
+2. To the left of the next screen, clicking on 'Pages' took me to GitHub Pages.
+3. I selected "Deploy from a branch" under the "Source" drop-down menu.
+4. Using two drop-down menus, I ensured my site was to be built from the 'main' branch and the '/ (root)' folder.
+5. My site was deployed to GitHub Pages after a few minutes, allowing me to share the live site to others.
 
 ## Credits
 
