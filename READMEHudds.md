@@ -55,17 +55,20 @@ This project consists of three pages, each accessible by the relevant links on t
     * Both my HTML and CSS code received validation several times over the last few days before project submission, and several oversights and unused classes in my HTML were brought to my attention.
 - [W3C Schools](https://www.w3schools.com/)
     * I consulted this website several times with regards to image formatting and the particulars of using a grid template when creating the headers for my events page.
--                                  
+- [stackoverflow](https://stackoverflow.com/)
+    * I used the information on [this page](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div) to help me center an element with absolute positioning up to a certain screen size.
+- [Easy Card Design Layout with CSS Grid](https://codepen.io/dcode-software/pen/JjjpzLE)  
+    * I used a modified version of the templating created by CodePen user ["Dom"](https://codepen.io/dcode-software) as the basis for my cards on the homepage and events pages.                                  
 
 ## Testing
 
 ### Validator Testing
 
-The Hudds Hikes project passed the following test with no issues:
+Two issues were flagged and subsequently fixed after CSS Validation on 29/9/2022 at the following site:
 
 [CSS - W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/)
 
-A total of 9 issues were flagged and subsequently fixed after HTML validation at the following site:
+A total of 9 issues were flagged and subsequently fixed after HTML validation on 27/9/2022. On the 29/9/2022, further validation at the following site produced no errors:
 
 [HTML - W3C Markup Validation Service](https://validator.w3.org/)
 
@@ -93,7 +96,23 @@ The names referred to as Hudds Hikes' founders, my own excluded, are the names o
 
 ### Media
 
-All the images at the top of the site's homepage were sourced from (stock.adobe.com) under the search term "disability hike" from the first 5 of 15 results pages. Search last retrieved on 9/27/2022.
+All the images at the top of the homepage were sourced from stock.adobe.com at the following links:
+
+[disability_carry.jpg](https://stock.adobe.com/images/randonnee-en-joelette/16433263)
+
+[disability_hike.jpg](https://stock.adobe.com/images/young-woman-with-leg-disability-uses-poles-while-hiking-with-friends-in-nature/440338733)
+
+[hike_winter.jpg](https://stock.adobe.com/images/randonnee-solidaire-avec-handicapes-en-fauteuil-roulant-et-aveugles-sur-la-neige-avec-des-raquettes-et-des-patins-en-montagne-en-hiver/491254660)
+
+[disability_view.jpg](https://stock.adobe.com/images/grisons-arosa/43718405)
+
+[disability_horizon.jpg](https://stock.adobe.com/images/man-with-a-crutches-and-fixed-broken-leg-on-crutches-traveler-with-hurt-leg-in-bandages-stay-on-rock/181987846)
+
+[walking_stick.jpg](https://stock.adobe.com/images/two-elderly-women-are-involved-in-scandinavian-walking-in-the-park-in-off-road/225274909)
+
+[wheelchair_mountains.jpg](https://stock.adobe.com/images/disabled-man-on-wheelchair-using-accessible-vehicle-with-lift-or-ramp-in-nature/319866098)
+
+[disability_leg.jpg](https://stock.adobe.com/images/rear-view-of-unrecognizable-hiker-with-leg-prosthesis-walks-through-the-woods/440338957)
 
 For the "Upcoming Walks" section on the site's home page, four of the six images were sourced from Wikipedia, one from stock.adobe.com and one from commons.wikimedia.org via the following links:
 
@@ -117,10 +136,10 @@ The background image used on the joinus.html page was sourced from media.istockp
 
 ### Acknowledgements
 
-I'd like to thank the following for their guidance and support for the project, however major or minor:
+I'd like to thank the following for their guidance, support and contributions for the project, however major or minor:
 
 - My mentor, Owonikoko Oluwaseun
--
-- Fellow coursemate Mia Rasmussen
--
+- My step-in mentor, Jubril Akolade
+- My coursemate Mia Rasmussen
+- Software Tester and friend, Paolo Ferrier, for troubleshooting some CSS styling with me
 - My friend, Joshua Moss, for allowing me to use his image in the project
