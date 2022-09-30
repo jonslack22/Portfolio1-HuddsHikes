@@ -20,17 +20,17 @@ This is the first of five projects that comprise the Full Stack Software Develop
 
 ### User Stories
 
-- I am a wheelchair user who has an interest in hiking but is put off by accessibility issues such as stiles, locked gates en route, poor path maintenance and not knowing, if any, what parts of the countryside have solutions in place for said issues.
+1. I am a wheelchair user who has an interest in hiking but is put off by accessibility issues such as stiles, locked gates en route, poor path maintenance and not knowing if any potential solutions have been implemented.
 
-- I am a person with a physical disability that is not bound by a wheelchair or other device, and I am looking for walks in the Huddersfield area.
+2. I am a person with a physical disability that is not bound by a wheelchair or other device, and I am looking for walks in the Huddersfield area.
 
-- I am somebody looking for the existence of a disability-friendly hiking group as information on inclusivity in hiking is not at the forefront of rambling group pages.
+3. I am somebody looking for the existence of a disability-friendly hiking group as information on inclusivity in hiking is not at the forefront of rambling group pages.
 
-- I am a user of a tablet and a phone. I want to experience all the website's features in an aesthetically pleasing manner.
+4. I am a user of a tablet and a phone. I want to experience all the website's features in an aesthetically pleasing manner.
 
-- I am the one of the founders of Hudds Hikers. I want a website that encourages people to simply turn up to a walk and be part of a group that is promoring and developing wider access to the countryside.
+5. I am the one of the founders of Hudds Hikers. I want a website that encourages people to simply turn up to a walk and be part of a group that is promoring and developing wider access to the countryside.
 
-### Design Process
+### Project Design
 
 1. I began designing the site by outlining what features and information I wanted my website to have, bearing in mind the user stories above. This led me to decide on creating three seperate pages: "Home" "Events" and "Join Us".
 
@@ -38,11 +38,11 @@ This is the first of five projects that comprise the Full Stack Software Develop
 
 3. After reading some basic information about the group and the nature of the walks on offer, a positive first impression garnered of Hudds Hikes would be reinforced by listing why the group thinks it's worth joining. This led to the "Why Ramble With Us?" section on the homepage.
 
-4. It was at this point that I commenced a wireframe design on [Miro](https://miro.com/app/board/uXjVPVVcxhY=/?share_link_id=156333714561). The basic layout of the site holds true to the wireframe layout, though it is not to scale. The greatest deviation from the wireframe came from the layout of the images on the homepage. Having information about walks horizontally aligned is visually impractical on smaller screen sizes, and the headline images at the top of the page 
+4. For the group 'to put it's money where it's mouth is', concrete information about upcoming walks, including wheelchair and mobility-vehicle friendly walks, is included in the 'Our Upcoming Walks' section, immediately following the "Why Ramble With Us?" section. This notion extends to the 'Events' page, as means of the group's intention to carry their intentions further afield.
 
-5. For the group 'to put it's money where it's mouth is', concrete information about upcoming walks, including wheelchair and mobility-vehicle friendly walks, is included immediately afterwards in the 'Our Upcoming Walks' section, as well as on the 'Events' page, as means of the group's intention to carry their intentions further afield.
+5. It was after both the Home and Event Pages received their basic HTML structure and early CSS stylings that I commenced a wireframe design on [Miro](https://miro.com/app/board/uXjVPVVcxhY=/?share_link_id=156333714561). The basic layout of the site holds true to the wireframe layout, though it is not to scale. The greatest deviation from the wireframe came from the layout of the images on the homepage. Having information about multiple walks while horizontally aligned is visually impractical on smaller screen sizes, and the headline images arranged similarly on smaller screens would lose some impact, so restricting each image's screen estate at smaller screen widths was prioritised.
 
-
+6. Details such as the fonts used across the site, and a colour scheme, were not finalised until later in the project. Fonts "Istok" "Anton" and "Galindo were chosen as attention-grabbing styles that differentiate themselves from more common and formal text styles. Colours associated with the countryside were used across the site in contrast to dark-grey and black fonts as a means of enhancing visibility.
 
 ## Project Wireframe - Miro
 
@@ -111,6 +111,20 @@ This project consists of three pages, each accessible by the relevant links on t
 
 ## Testing
 
+## Fulfilling User Stories
+
+With reference to the user stories listed above:
+
+1. This user wants to go on a hike and can see very early on through the header images that devices exist to make this possibility easier. Where wheelchairs or other similar devices are needed, several walks have removed common barriers to countryside access to the extent that they are marked as friendly.
+
+2. By scrolling down the page with a mouse or finger a few times, information about the nature of Hudds Hikers' walks, and specific details about upcoming walks, can be found quickly.
+
+3. Hudds Hikers clearly aim to promote inclusivity as part of their strategy for boosting walk participation and group membership. Information about who Hudds Hikes works with to promote accessibility is included via hyperlinks on the homepage and Events page, and easy-to-understand shorthand information about accessible wheeled device walks is communicated via a red and white symbol.
+
+4. All the site's elements are responsive at smaller screen sizes, so the site retains visual appeal on phones and tablets.
+
+5. The group's founder can see that Hudds Hikes is trying as much as possible to encourage hiking participation in disadvantaged groups. Site visitors are told they can turn up to a walk on the homepage and to join the group aftewards if they enjoyed it (membership is free, too!). Information on rentable devices is included on the Events Page. Hudds Hike's aim of removing the barriers to countryside access is clearly communicated in the 'Why Ramble with Us?" section.  
+
 ### Validator Testing
 
 Two issues were flagged and subsequently fixed after CSS Validation on 29/9/2022 at the following site:
@@ -136,6 +150,10 @@ I manually tested the project via the following methods:
 - Asking a friend to help me test and brainstorm CSS styling methods during a troubleshooting evening; 
 - Asking for mentor support during call sessions when I indicated I was struggling with some concepts.
 
+### Issues/Bugs
+
+- On the Events page,
+
 ## Deployment
 
 ## Deploying the site on GitHub
@@ -145,6 +163,12 @@ I manually tested the project via the following methods:
 3. I selected "Deploy from a branch" under the "Source" drop-down menu.
 4. Using two drop-down menus, I ensured my site was to be built from the 'main' branch and the '/ (root)' folder.
 5. My site was deployed to GitHub Pages after a few minutes, allowing me to share the live site to others.
+
+### Project Cloning
+
+It is my wish that this project is not cloned for personal use. 
+
+However, I am open to the idea of collaborating to improve the site further, in the future. Should this be the case, please contact me at *jonathanslack89@ymail.com* 
 
 ## Credits
 

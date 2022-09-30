@@ -158,13 +158,12 @@ li {
     padding-top: 30px;
 }
 
-.events-cards {
+.events-card {
     margin: 0 auto;
-    max-width: 1500px;
+    width: 100%;
     display: grid;
     grid-template-columns: auto;
     grid-auto-rows: auto;
-    gap: 80px;
     font-family: Istok, sans-serif;
     padding-top: 30px;
 }
@@ -173,7 +172,7 @@ li {
     box-sizing: border-box;
 }
 
-.events-cards * {
+.events-card * {
     box-sizing: border-box;
 }
 
@@ -245,7 +244,7 @@ iframe {
 }
 
 .events-content {
-    width: 99%;
+    width: 100%;
     line-height: 1.5;
     font-size: 0.9em;
     padding: 15px;
