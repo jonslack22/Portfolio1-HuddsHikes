@@ -1,108 +1,230 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Hudds Hikes
 
-Welcome jonslack22,
+## Code Institute - Milestone Project 1
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+*Hudds Hikers* is a fictional group dedicated to providing a disability-friendly hiking (or rambling, as it is sometimes referred to) experience. The 'Hudds' is shorthand for Huddersfield, a large town based in the UK, West Yorkshire. The idea for this project was inspired by a hiking trip to Snowdonia, Wales, with friends in July 2022, and through my work in a care home for individuals undergoing physical rehabilitation. I noticed a lack of dedicated hiking groups online for those less physically able. Though individual groups that form the backbone of wesbites such as ramblers.org.uk make reference to inclusivity, this information was hard to find via regular site navigation. The idea of building a local rambling website that puts inclusivity at the forefront of its philosophy, highlighting walks and potential trips that are friendly to wheelchair and mobility-device users, amongst others, held appeal to me, as countryside accessibility needs to be improved upon; some routes simply need extra path maintenance or a small side-route around a stile to remove rambling barriers for many!
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This is the first of five projects that comprise the Full Stack Software Development course ran by *Code Institute*. This project required the use of HTML and CSS3 to build a responsive and static website with three pages or more.
 
-## Gitpod Reminders
+## Defining the UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Primary Goals
 
-`python3 -m http.server`
+ - To make information about an inclusive walking group and accessible walks in the Huddersfield district, and further afield, more readily available, appealing to those who are put off by inaccessibility issues in countryside hiking and encouraging participation.
 
-A blue button should appear to click: _Make Public_,
+ - To ensure it is easy for users to sign up for a free membership to the group and include themselves in a mailing list that details upcoming walks and trips that are of interest.
 
-Another blue button should appear to click: _Open Browser_.
+ - To define Hudds Hikes as credible in their dedication to providing inclusive hiking experiences while acknowledging more work needs to be done in this area.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ - To make a website that is responsive and static across computers, tablets and phones.
 
-A blue button should appear to click: _Make Public_,
+### User Stories
 
-Another blue button should appear to click: _Open Browser_.
+1. I am a wheelchair user who has an interest in hiking but is put off by accessibility issues such as stiles, locked gates en route, poor path maintenance and not knowing if any potential solutions have been implemented.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+2. I am a person with a physical disability that is not bound by a wheelchair or other device, and I am looking for walks in the Huddersfield area.
 
-To log into the Heroku toolbelt CLI:
+3. I am somebody looking for the existence of a disability-friendly hiking group as information on inclusivity in hiking is not at the forefront of rambling group pages.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+4. I am a user of a tablet and a phone. I want to experience all the website's features in an aesthetically pleasing manner.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+5. I am the one of the founders of Hudds Hikers. I want a website that encourages people to simply turn up to a walk and be part of a group that is promoring and developing wider access to the countryside.
 
-------
+### Project Design
 
-## Release History
+1. I began designing the site by outlining what features and information I wanted my website to have, bearing in mind the user stories above. This led me to decide on creating three seperate pages: "Home" "Events" and "Join Us".
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+2. I wanted to immediately quell the notion that hiking is only for the able-bodied by displaying inspiring images on the site's homepage. The images include somebody being carried in a special mobility device, a wheelchair user sat with her friend atop a high peak, and a person in a mobility vehicle being lowered/lifted while looking at a mountainous backdrop, amongst others. This would also serve to set the tone for what Hudds Hikers philosophise as a rambling group, and to provide immediate engagement.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+3. After reading some basic information about the group and the nature of the walks on offer, a positive first impression garnered of Hudds Hikes would be reinforced by listing why the group thinks it's worth joining. This led to the "Why Ramble With Us?" section on the homepage.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+4. For the group 'to put it's money where it's mouth is', concrete information about upcoming walks, including wheelchair and mobility-vehicle friendly walks, is included in the 'Our Upcoming Walks' section, immediately following the "Why Ramble With Us?" section. This notion extends to the 'Events' page, as means of the group's intention to carry their intentions further afield.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+5. It was after both the Home and Event Pages received their basic HTML structure and early CSS stylings that I commenced a wireframe design on [Miro](https://miro.com/app/board/uXjVPVVcxhY=/?share_link_id=156333714561). The basic layout of the site holds true to the wireframe layout, though it is not to scale. The greatest deviation from the wireframe came from the layout of the images on the homepage. Having information about multiple walks while horizontally aligned is visually impractical on smaller screen sizes, and the headline images arranged similarly on smaller screens would lose some impact, so restricting each image's screen estate at smaller screen widths was prioritised.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+6. Details such as the fonts used across the site, and a colour scheme, were not finalised until later in the project. Fonts "Istok" "Anton" and "Galindo were chosen as attention-grabbing styles that differentiate themselves from more common and formal text styles. Colours associated with the countryside were used across the site in contrast to dark-grey and black fonts as a means of enhancing visibility.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Project Wireframe - Miro
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+[The entirety of the wireframe can be seen at this link](https://miro.com/app/board/uXjVPVVcxhY=/?share_link_id=156333714561)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Please note that the wireframe was not created to scale, and doesn't include any code stylings or images.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Features
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Basic Features
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+This project consists of three pages, each accessible by the relevant links on the top-right of each page.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Consistent Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- A menu header displaying the "Hudds Hikers" logo at the top-left (also acting as a homepage link when clicked) and three navigation links at the top-right.
+- Four social media links at the bottom of each page as a footer.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Home
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- A gallery of eight images near the page top, intended to promote the belief that physical disability is not a barrier to participating in hiking activities.
+- An introduction to the Hudds Hikers group, promoting the group's key philosophy and the structure of the walks on offer.
+- Four major reasons to hike with the group made easily visible and supported by adjacent FontAwesome icons.
+- Details of six upcoming walks, each with an embedded map, two of which are marked as wheelchair and mobility device friendly, intended to communicate to a site visitor that Hudds Hikes are inclusive where physically possible. A note of participation encouragement is included, along with a link to sign up for a free membership.
 
-------
+### Events
 
-## FAQ about the uptime script
+- Details of two extended walking trips are included on this page to communicate the scope of the activities of the group. Large images are included as part of the trip outline. Hiking groups that have been or are local to me have ran trips of a similiar nature before, and I sought to repliacte that with this page.
 
-**Why have you added this script?**
+### Join Us
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- Contains a form that users must fill in to become a group member. All fields must be filled in and the final checkbox must be left selected or unselected. At larger screen sizes, a silhouette of an individual in a wheelchair can be seen.
 
-**How will this affect me?**
+### Features Not Implemented/For Future Consideration
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- I considered the use of drop-down menus to present information about upcoming walks, much in the same way as the [Huddersfield Ramblers](https://www.ramblers.org.uk/go-walking/group-finder/areas/west-riding/groups/huddersfield/our-events--activities.aspx) group does. JavaScript was used in the creation of these menus, and was beyond the scope of limitations for this project.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- A feature that goes beyond the scope of this project would be a members-only website section, where the group's founders could be contacted more directly. This could contain a forum as well, allowing group members to discuss upcoming walks and ask each other questions.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- A news page that informs readers of developments in countryside accessibility, whether it be the group purchasing mobile carrier devices (an alternative to wheelchairs) or local pathways becoming more accessible, e.g. through maintenance funds.
 
-**So….?**
+## Technologies and Sites Used
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- HTML5
+    * The primary coding language used to create the site's content and draw up the form.
+- CSS3
+    * The language used to style the HTML5 elements and colour schemes of the site's pages.
+- [Miro](https://miro.com)
+    * The wireframe building website I used for the project. This helped me visualise the layout of each page (and the images contained within) across a desktop, mobile and tablet view (details such as colours and font schemes were finalised later).
+- [FontAwesome](https://fontawesome.com)
+    * Eight free icons from FontAwesome were used for this project; four represent clickable links for Facebook, Instagram, Youtube and WhatsApp.
+- [Adobe Stock](stock.adobe.com)
+    * The eight images comprising the top of the home page were all sourced from here.
+- [iStock by Getty Images](istockphoto.com)
+    * The image used for the background of the signup form was sourced from here.    
+- [Google Fonts](https://fonts.google.com)
+    * The three different font-families used for the project, Anton, Istok and Galindo, were sourced from here.
+- [W3C Markup Validation Service](https://validator.w3.org/)
+    * Both my HTML and CSS code received validation several times over the last few days before project submission. All errors and warnings were resolved.
+- [W3C Schools](https://www.w3schools.com/)
+    * I consulted this website several times with regards to image formatting and the particulars of using a grid template when creating the headers for my events page.
+- [stackoverflow](https://stackoverflow.com/)
+    * I used the information on [this page](https://stackoverflow.com/questions/1776915/how-can-i-center-an-absolutely-positioned-element-in-a-div) to help me center an element with absolute positioning up to a certain screen size.
+- [Easy Card Design Layout with CSS Grid](https://codepen.io/dcode-software/pen/JjjpzLE)  
+    * I used a modified version of the templating created by CodePen user ["Dom"](https://codepen.io/dcode-software) as the basis for my cards on the homepage and events pages.                                  
 
-**Can I opt out?**
+## Testing
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Fulfilling User Stories
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+With reference to the user stories listed above:
 
-**Anything more?**
+1. This user wants to go on a hike and can see very early on through the header images that devices exist to make this possibility easier. Where wheelchairs or other similar devices are needed, several walks have removed common barriers to countryside access to the extent that they are marked as friendly.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+2. By scrolling down the page with a mouse or finger a few times, information about the nature of Hudds Hikers' walks, and specific details about upcoming walks, can be found quickly.
 
----
+3. Hudds Hikers clearly aim to promote inclusivity as part of their strategy for boosting walk participation and group membership. Information about who Hudds Hikes works with to promote accessibility is included via hyperlinks on the homepage and Events page, and easy-to-understand shorthand information about accessible wheeled device walks is communicated via a red and white symbol.
 
-Happy coding!
+4. All the site's elements are responsive at smaller screen sizes, so the site retains visual appeal on phones and tablets.
+
+5. The group's founder can see that Hudds Hikes is trying as much as possible to encourage hiking participation in disadvantaged groups. Site visitors are told they can turn up to a walk on the homepage and to join the group aftewards if they enjoyed it (membership is free, too!). Information on rentable devices is included on the Events Page. Hudds Hike's aim of removing the barriers to countryside access is clearly communicated in the 'Why Ramble with Us?" section.  
+
+### Validator Testing
+
+Two issues were flagged and subsequently fixed after CSS Validation on 29/9/2022 at the following site:
+
+[CSS - W3C Markup Validation Service](https://jigsaw.w3.org/css-validator/)
+
+A total of 9 issues were flagged and subsequently fixed after HTML validation on 27/9/2022. On the 29/9/2022, further validation at the following site produced no errors:
+
+[HTML - W3C Markup Validation Service](https://validator.w3.org/)
+
+### Broswer Testing
+
+The website was tested on the following broswers to ensure design, responsiveness and buttons, links etc worked as intended:
+
+- Mozilla Firefox
+- Google Chrome
+
+### Testing Responsiveness
+
+I manually tested the project via the following methods:
+
+- Using Firefox Developer Tools and Chrome Developer Tools to view ecah of the project pages at different screen sizes;
+- Asking a friend to help me test and brainstorm CSS styling methods during a troubleshooting evening; 
+- Asking for mentor support during call sessions when I indicated I was struggling with some concepts.
+
+### Issues/Bugs
+
+- No bugs exist on the page that I know of.
+- All known issues that were noticed during testing were eventually solved through extensive work in Firefox Developer Tools and editing HTML and CSS code appropriately.
+
+## Deployment
+
+### Deploying the site on GitHub
+
+1. I clicked on the 'Settings' icon of my project repository on GitHub.
+2. To the left of the next screen, clicking on 'Pages' took me to GitHub Pages.
+3. I selected "Deploy from a branch" under the "Source" drop-down menu.
+4. Using two drop-down menus, I ensured my site was to be built from the 'main' branch and the '/ (root)' folder.
+5. My site was deployed to GitHub Pages after a few minutes, allowing me to share the live site to others.
+
+### Project Cloning
+
+It is my wish that this project is not cloned for personal use. 
+
+However, I am open to the idea of collaborating to improve the site further, in the future. Should this be the case, please contact me at *jonathanslack89@ymail.com* 
+
+## Credits
+
+### Content
+
+The content of the site is closely analagous to real world walks that I, as well as friends or family, have either been on myself, or have been near to.
+
+The names referred to as Hudds Hikes' founders, my own excluded, are the names of people that have a unique relationship with hiking, either by their connection to me or their relationship to someone I have hiked with previously.
+
+### Media
+
+All the images at the top of the homepage were sourced from stock.adobe.com at the following links:
+
+[disability_carry.jpg](https://stock.adobe.com/images/randonnee-en-joelette/16433263)
+
+[disability_hike.jpg](https://stock.adobe.com/images/young-woman-with-leg-disability-uses-poles-while-hiking-with-friends-in-nature/440338733)
+
+[hike_winter.jpg](https://stock.adobe.com/images/randonnee-solidaire-avec-handicapes-en-fauteuil-roulant-et-aveugles-sur-la-neige-avec-des-raquettes-et-des-patins-en-montagne-en-hiver/491254660)
+
+[disability_view.jpg](https://stock.adobe.com/images/grisons-arosa/43718405)
+
+[disability_horizon.jpg](https://stock.adobe.com/images/man-with-a-crutches-and-fixed-broken-leg-on-crutches-traveler-with-hurt-leg-in-bandages-stay-on-rock/181987846)
+
+[walking_stick.jpg](https://stock.adobe.com/images/two-elderly-women-are-involved-in-scandinavian-walking-in-the-park-in-off-road/225274909)
+
+[wheelchair_mountains.jpg](https://stock.adobe.com/images/disabled-man-on-wheelchair-using-accessible-vehicle-with-lift-or-ramp-in-nature/319866098)
+
+[disability_leg.jpg](https://stock.adobe.com/images/rear-view-of-unrecognizable-hiker-with-leg-prosthesis-walks-through-the-woods/440338957)
+
+For the "Upcoming Walks" section on the site's home page, four of the six images were sourced from Wikipedia, one from stock.adobe.com and one from commons.wikimedia.org via the following links:
+
+[Crowden Campsite and Black Hill Circular](https://en.wikipedia.org/wiki/Black_Hill_(Peak_District)#/media/File:Black_Hill_(Peak_District).jpg)
+
+[Torside Reservoir Circular](https://en.wikipedia.org/wiki/Torside_Reservoir#/media/File:Torside8486.JPG)
+
+[Slaithwaite to Marsden Canal Circular](https://en.wikipedia.org/wiki/Torside_Reservoir#/media/File:Torside8486.JPG)
+
+[Ramsden Reservoir & Hade Edge Circular](https://stock.adobe.com/images/ramsden-reservoir-near-holmfirth-during-the-summer/310465365)
+
+[Digley Reservoir Circular Walk](https://commons.wikimedia.org/wiki/File:Digley_Reservoir_-_geograph.org.uk_-_503817.jpg)
+
+[Crowden Circular via Crowden Quarry](https://en.wikipedia.org/wiki/Crowden,_Derbyshire#/media/File:Crowden_-_geograph.org.uk_-_377592.jpg)
+
+The image used for the "Snowdonia Ramble Trip" is my own personal image taken via phone while descending the Pyg Track route.
+
+The image for the "Lake District Ramble Trip" on the same page was given to me by my friend, Joshua Moss, who accompanied me on a walk up Scafell Pike in 2021. Permission was obtained to use the image for the deployed Hudds Hike project.
+
+The background image used on the joinus.html page was sourced from media.istockphoto.com at the following address: (https://media.istockphoto.com/photos/international-day-of-persons-with-disabilitiesn3-december-picture-id1250348677?k=20&m=1250348677&s=612x612&w=0&h=YF4Kzxfpi9xd5AxtAhWBW7zSbXkrUE-Il5LfHoqSf2s=)
+
+### Acknowledgements
+
+I'd like to thank the following for their guidance, support and contributions for the project, however major or minor:
+
+- My mentor, Owonikoko Oluwaseun
+- My step-in mentor, Jubril Akolade
+- My coursemate Mia Rasmussen
+- Software Tester and friend, Paolo Ferrier, for troubleshooting some CSS styling with me
+- My friend, Joshua Moss, for allowing me to use his image in the project
