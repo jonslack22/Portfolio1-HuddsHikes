@@ -2,7 +2,9 @@
 
 ## Code Institute - Milestone Project 1
 
-*Hudds Hikers* is a fictional group dedicated to providing a disability-friendly hiking (or rambling, as it is sometimes referred to) experience. The 'Hudds' is shorthand for Huddersfield, a large town based in the UK, West Yorkshire. The idea for this project was inspired by a hiking trip to Snowdonia, Wales, with friends in July 2022, and through my work in a care home for individuals undergoing physical rehabilitation. I noticed a lack of dedicated hiking groups online for those less physically able. Though individual groups that form the backbone of wesbites such as ramblers.org.uk make reference to inclusivity, this information was hard to find via regular site navigation. The idea of building a local rambling website that puts inclusivity at the forefront of its philosophy, highlighting walks and potential trips that are friendly to wheelchair and mobility-device users, amongst others, held appeal to me, as countryside accessibility needs to be improved upon; some routes simply need extra path maintenance or a small side-route around a stile to remove rambling barriers for many!
+*Hudds Hikers* is a fictional group dedicated to providing a disability-friendly hiking (or rambling, as it is sometimes referred to) experience. The 'Hudds' is shorthand for Huddersfield, a large town based in the UK, West Yorkshire. The idea for this project was inspired by a hiking trip to Snowdonia, Wales, with friends in July 2022, and through my work in a care home for individuals undergoing physical rehabilitation. 
+
+I noticed a lack of dedicated hiking groups online for those less physically able. Though individual groups that form the backbone of wesbites such as ramblers.org.uk make reference to inclusivity, this information was hard to find via regular site navigation. The idea of building a local rambling website that puts inclusivity at the forefront of its philosophy, highlighting walks and potential trips that are friendly to wheelchair and mobility-device users, amongst others, held appeal to me, as countryside accessibility needs to be improved upon.
 
 This is the first of five projects that comprise the Full Stack Software Development course ran by *Code Institute*. This project required the use of HTML and CSS3 to build a responsive and static website with three pages or more.
 
@@ -141,14 +143,14 @@ The website was tested on the following broswers to ensure design, responsivenes
 
 - Mozilla Firefox
 - Google Chrome
+- Apple Safari
 
 ### Testing Responsiveness
 
 I manually tested the project via the following methods:
 
 - Using Firefox Developer Tools and Chrome Developer Tools to view ecah of the project pages at different screen sizes;
-- Asking a friend to help me test and brainstorm CSS styling methods during a troubleshooting evening; 
-- Asking for mentor support during call sessions when I indicated I was struggling with some concepts.
+- Asking a friend to help me test and brainstorm CSS styling methods during a troubleshooting evening.
 
 ### Issues/Bugs
 
